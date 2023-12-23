@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ok</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        #ascii-art {
+            font-family: 'Courier New', monospace;
+            white-space: pre;
+        }
+    </style>
+</head>
+<body>
+    <pre id="ascii-art">
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣼⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡾⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡀
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡴⠞⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⠃
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡴⠟⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡏⠀
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⡞⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⡇⠀
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠟⡞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⡀
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡾⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡄⠀⢸⡇⠁
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⡇⢸⡄⠀⠀⠀⠀⠀⠀⢦⡀⠀⢠⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⡀⣾⠀⠀
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣰⣿⠀⢸⡇⠀⠀⠀⠀⠀⢰⡀⠹⣦⡀⠉⢦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠃⠀⠀
+        ⠀⠀⠀⠀⠀⠀⠀⠀⢀⡴⢋⣼⠃⠀⠈⣇⠀⠀⠀⠘⢧⣀⣷⡶⠟⠙⠳⢤⣙⣦⡀⠀⠀⠀⠀⠀⠀⠀⢸⡏⠀⠀⠀
+        ⠀⠀⠀⠀⠀⠀⢀⡴⢋⡴⢻⠏⠀⠀⠀⣿⠀⠀⠀⠀⠀⢿⡁⠀⠀⠀⠀⠀⠈⠙⣧⠀⠀⠀⠀⠀⠀⠀⣾⠀⠀⠀⠀
+        ⠀⠀⠀⠀⣠⡴⠋⣰⠏⢰⡟⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⢠⡇⠀⠀⠀⠀
+        ⠀⠀⠀⣾⠟⠀⣴⠃⢀⡿⠄⠀⠀⠀⠀⣿⠀⠀⠀⠀⣤⣿⣄⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⣾⠃⠀⠀⠀⠀
+        ⠀⠀⠀⠙⠒⡾⠃⠀⣼⠆⠀⠀⠀⢠⣠⢿⣍⠀⠀⠀⠀⠀⠉⢳⣄⠀⠀⠀⠀⣰⣿⡀⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀
+        ⠀⠀⠀⢀⡼⠁⠀⢠⡇⠀⠀⠀⠀⢸⠏⠀⠙⢷⣤⡀⠀⠀⠀⠀⣿⠷⠦⣄⣰⠏⠀⠀⠀⠀⠀⠀⣸⠏⠀⠀⠀⠀⠀
+        ⠀⢀⣴⠋⠀⠀⢀⣾⠀⠀⠀⠀⢠⡟⠀⠀⠀⠀⠈⠛⢦⡀⠀⠀⠙⠀⠀⠈⡿⠀⠀⠀⠈⢒⣶⠾⠋⠀⠀⠀⠀⠀⠀
+        ⣴⣿⠋⠀⢀⡴⢿⡇⠀⠀⠀⢠⡟⠀⠀⠀⠀⠀⠀⠀⠀⠙⠛⠶⠤⢴⣞⣒⣷⢠⠎⢉⣿⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠙⠦⠤⠶⠋⠀⡿⠀⠀⠀⢲⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠛⠒⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠀⣸⣧⠀⠀⢀⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⢴⢳⠇⠀⢀⡾⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠈⠛⠶⠖⠋⠀⠀
+    </pre>
+    <script>
+        const asciiArt = document.getElementById('ascii-art');
+        const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+        let colorIndex = 0;
+
+        function updateColor() {
+            const asciiLines = asciiArt.textContent.split('\n');
+            const coloredAscii = asciiLines.map((line, index) => {
+                const color = colors[(colorIndex + index) % colors.length];
+                return `<span style="color: ${color}">${line}</span>`;
+            }).join('\n');
+
+            asciiArt.innerHTML = coloredAscii;
+            colorIndex = (colorIndex + 1) % colors.length;
+        }
+
+        setInterval(updateColor, 100);
+    </script>
+</body>
+</html>
